@@ -12,10 +12,10 @@ export default defineConfig({
       find: "src", replacement: resolve(__dirname, "src")
     }]
   },
-  build: {
-		minify: 'esbuild',
-		target: "esnext"
-	},
+  // build: {
+	// 	minify: 'esbuild',
+	// 	target: "esnext"
+	// },
   define: {
     'process.env': {}
   }
