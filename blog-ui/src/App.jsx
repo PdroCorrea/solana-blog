@@ -7,7 +7,7 @@ import "./App.css"
 
 
 export const App = () => {
-  const endpoint = "https://rpc.ankr.com/solana_devnet"
+  const endpoint = "https://api.devnet.solana.com"
   const wallets = useMemo(
     () => [
       new PhantomWalletAdapter(),
